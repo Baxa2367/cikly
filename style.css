@@ -1,0 +1,84 @@
+  <style>
+        /* Стиль для секции формы */
+        #leave-testimonial {
+            background-color: #f9f9f9;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        #leave-testimonial .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Заголовок формы */
+        #leave-testimonial h2 {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        /* Стили для textarea (отзыв) */
+        #leave-testimonial form textarea {
+            width: 100%;
+            height: 150px;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            resize: vertical;
+            font-size: 1rem;
+            margin-bottom: 20px;
+            transition: border-color 0.3s ease;
+        }
+
+        /* Стили для поля ввода имени */
+        #leave-testimonial form input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+
+        /* Стили при фокусе на поле */
+        #leave-testimonial form textarea:focus, 
+        #leave-testimonial form input[type="text"]:focus {
+            border-color: #0077cc;
+            outline: none;
+        }
+
+        /* Кнопка отправки */
+        #leave-testimonial form button {
+            background-color: #0077cc;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #leave-testimonial form button:hover {
+            background-color: #005fa3;
+        }
+
+        /* Адаптивность для мобильных устройств */
+        @media (max-width: 768px) {
+            #leave-testimonial .container {
+                padding: 0 20px;
+            }
+
+            #leave-testimonial form textarea,
+            #leave-testimonial form input[type="text"] {
+                font-size: 1rem;
+            }
+
+            #leave-testimonial form button {
+                font-size: 1rem;
+            }
+        }
+    </style>
